@@ -1,0 +1,47 @@
+.footerRight{
+    border: 1px solid black;
+    flex:0.3;
+    height: 440px;
+    overflow: scroll;
+  min-width: 300px;
+  background-image: linear-gradient(to bottom, #dadedc, #dfe3e3, #e6e8e9, #ecedee, #f2f2f2);
+    border-radius: 8px;
+    box-shadow: 6px 6px 10px 0px rgba(0,0,0,0.57);
+    -webkit-box-shadow: 6px 6px 10px 0px rgba(0,0,0,0.57);
+    -moz-box-shadow: 6px 6px 10px 0px rgba(0,0,0,0.57);
+}
+
+.footerRight::-webkit-scrollbar{
+    display: none;
+}
+
+.footerRight{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+
+.footerRight>h5{
+   margin-left: 12px;
+}
+
+.footerRight_List{
+    margin-top: 20px;
+    margin-bottom: 80px;
+    
+}
+
+
+.footerRightlist_Text>li>h4{
+    color: lightgreen;
+   
+}
+
+.btn{
+    margin-left: 35%;
+    width:100px;
+}
+
+.btn:hover{
+    color: black;
+}

@@ -1,0 +1,9 @@
+.app{
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.app::-webkit-scrollbar{
+  display: none;
+}

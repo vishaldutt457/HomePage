@@ -1,0 +1,45 @@
+.footerMiddle{
+   border: 1px solid black;
+   flex:0.3;
+   height: 440px;
+   overflow: scroll;
+   border-radius: 8px;
+   background-image: linear-gradient(to bottom, #dadedc, #dfe3e3, #e6e8e9, #ecedee, #f2f2f2);
+   min-width: 300px;
+   box-shadow: 6px 6px 10px 0px rgba(0,0,0,0.57);
+   -webkit-box-shadow: 6px 6px 10px 0px rgba(0,0,0,0.57);
+   -moz-box-shadow: 6px 6px 10px 0px rgba(0,0,0,0.57);
+}
+
+.footerMiddle::-webkit-scrollbar{
+   display: none;
+}
+
+.footerMiddle{
+   -ms-overflow-style: none;
+   scrollbar-width: none;
+}
+
+
+.footerMiddle>h5{
+   margin-left: 12px;
+}
+
+.footerMiddle_List{
+   margin-bottom: 80px;
+}
+
+
+.btn{
+   margin-left: 40%;
+   border-radius: 12px ;
+   width: 50px;
+   height: 30px;
+   margin-bottom: 10px;
+}
+
+.btn:hover{
+   box-shadow: 6px 6px 10px 0px rgba(0,0,0,0.57);
+   -webkit-box-shadow: 6px 6px 10px 0px rgba(0,0,0,0.57);
+   -moz-box-shadow: 6px 6px 10px 0px rgba(0,0,0,0.57);
+}
